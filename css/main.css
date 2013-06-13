@@ -58,6 +58,7 @@ header h1 {
 nav {
 	width: 660px;
 	float: left;
+	background-opacity
 }
 
 nav ul {
@@ -159,6 +160,40 @@ header a:active {
 	border-left-style:none;
 }
 
+.ctabutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #83d8eb), color-stop(1, #1a8ebf) );
+	background:-moz-linear-gradient( center top, #83d8eb 5%, #1a8ebf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#83d8eb', endColorstr='#1a8ebf');
+	background-color:#83d8eb;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	border:1px solid #5eb6db;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #5e5e5e;
+}
+
+.ctabutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1a8ebf), color-stop(1, #83d8eb) );
+	background:-moz-linear-gradient( center top, #1a8ebf 5%, #83d8eb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a8ebf', endColorstr='#83d8eb');
+	background-color:#1a8ebf;
+}
+
+.ctabutton:active {
+	position:relative;
+	top:1px;
+}
+
 /* --------------------------------------------------New Releases Sub CTA */
 
 .subcta {
@@ -188,8 +223,26 @@ section li img {
 	-moz-box-shadow: 3px 3px 4px #aaa;
 	-webkit-box-shadow: 3px 3px 4px #aaa;
 	box-shadow: 3px 3px 4px #aaa;
+}
+
+.subctaparagraph {
+	width: 940px;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 0 20px;
+	-moz-column-count:4;
+	-webkit-column-count:4;
+	column-count: 4;
+	-moz-column-gap:20px;
+	-webkit-column-gap:20px;
+	column-gap:20px;
+}
+
+.subctaparagraph p {
+	margin: 0;
 
 }
+
 /* --------------------------------------------------Advertisement */
 
 aside {
@@ -241,11 +294,9 @@ article img {
 	float: left;
 }
 
-/* Footer */
+/* --------------------------------------------------Footer */
 
 footer {
-	background-color: #aaa;
-	margin: 10px auto;
-	padding: 20px;
-
+	width: 980px;
+	background-color: rgba(60, 60, 60, 0.80);
 }
