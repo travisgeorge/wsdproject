@@ -106,6 +106,7 @@ header a:active {
 /* --------------------------------------------------Call to Action */
 
 .ctacontent h1 {
+	color: #188bbd;
 	margin: 0;
 	text-shadow: 0px 2px 3px #999;
 }
@@ -249,7 +250,7 @@ aside {
 	clear: left;
 	background-color: #fff;
 	margin: 20px;
-	max-height: 279px;
+	max-height: 280px;
 	float: right;
 	-moz-box-shadow: 3px 3px 4px #aaa;
 	-webkit-box-shadow: 3px 3px 4px #aaa;
