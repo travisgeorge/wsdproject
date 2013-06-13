@@ -6,9 +6,19 @@ body {
 	background: #020202 url("../images/bg_global.jpg") repeat-x;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cabin', serif;
+	letter-spacing: -1px;
+}
+
+h1 {
+	font-size: 25px;
+}
+
 p {
 	margin: 12px 0 0 0;
 }
+
 /* --------------------------------------------------Site Branding and Navigation */
 
 header {
@@ -16,7 +26,19 @@ header {
 	margin: 0 auto;
 }
 
-/* Call to Action */
+/* --------------------------------------------------Call to Action */
+
+.ctacontent h1 {
+	margin: 0;
+}
+
+.ctacontent em {
+	margin: 0;
+}
+
+.ctacontent p {
+	margin: 15px 0 0 0;
+}
 
 .cta {
 	background-color: #fff;
@@ -31,9 +53,9 @@ header {
 	width: 628px;
 	height: 240px;
 	float:left;
-	-moz-box-shadow: 3px 3px 4px #ddd;
-	-webkit-box-shadow: 3px 3px 4px #ddd;
-	box-shadow: 3px 3px 4px #ddd;
+	-moz-box-shadow: 3px 3px 4px #aaa;
+	-webkit-box-shadow: 3px 3px 4px #aaa;
+	box-shadow: 3px 3px 4px #aaa;
 	border: 1px;
 	border-top-style:solid;
 	border-right-style:none;
@@ -45,12 +67,12 @@ header {
 .ctacontent {
 	background-color: #fff;
 	width: 268px;
-	min-height: 200px;
+	height: 200px;
 	padding: 20px;
 	float: left;
-	-moz-box-shadow: 3px 3px 4px #ddd;
-	-webkit-box-shadow: 3px 3px 4px #ddd;
-	box-shadow: 3px 3px 4px #ddd;
+	-moz-box-shadow: 3px 3px 4px #aaa;
+	-webkit-box-shadow: 3px 3px 4px #aaa;
+	box-shadow: 3px 3px 4px #aaa;
 	border: 1px;
 	border-top-style:solid;
 	border-right-style:solid;
@@ -84,9 +106,9 @@ section li {
 section li img {
 	text-align: center;
 	border: 1px solid #000;
-	-moz-box-shadow: 3px 3px 4px #ddd;
-	-webkit-box-shadow: 3px 3px 4px #ddd;
-	box-shadow: 3px 3px 4px #ddd;
+	-moz-box-shadow: 3px 3px 4px #aaa;
+	-webkit-box-shadow: 3px 3px 4px #aaa;
+	box-shadow: 3px 3px 4px #aaa;
 
 }
 /* --------------------------------------------------Advertisement */
@@ -95,7 +117,7 @@ aside {
 	clear: left;
 	background-color: #fff;
 	margin: 20px;
-	max-height: 280px;
+	max-height: 279px;
 	float: right;
 	-moz-box-shadow: 3px 3px 4px #aaa;
 	-webkit-box-shadow: 3px 3px 4px #aaa;
@@ -109,7 +131,7 @@ aside {
 .articlebody {
 	background-color: #fff;
 	margin: 0;
-	padding: 0 0 40px 0;
+	padding: 0 0 20px 0;
 	width: 980px;
 	overflow: hidden;
 	float: right;
@@ -143,5 +165,8 @@ article img {
 /* Footer */
 
 footer {
+	background-color: #aaa;
+	margin: 10px auto;
+	padding: 20px;
 
 }
