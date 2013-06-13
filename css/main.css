@@ -85,7 +85,7 @@ header a {
 	text-align: center;
 }
 
-header a:visted {
+header a:visited {
 	color: #fff;
 }
 
@@ -210,7 +210,7 @@ header a:active {
 section ul {
 	list-style-type: none;
 	padding: 0;
-	margin: 0 10px;
+	margin: 0 8px;
 }
 
 section li {
@@ -246,7 +246,7 @@ section li img {
 
 /* --------------------------------------------------Advertisement */
 
-aside {
+.advertisement {
 	clear: left;
 	background-color: #fff;
 	margin: 20px;
@@ -298,6 +298,22 @@ article img {
 /* --------------------------------------------------Footer */
 
 footer {
+	clear: both;
 	width: 980px;
+	height: 60px;
 	background-color: rgba(60, 60, 60, 0.80);
+}
+
+footer img {
+	float: left;
+	width: 240px;
+	padding: 0 20px;
+}
+
+footer li {
+	color: #999;
+	line-height: 60px;
+	float: left;
+	list-style-type: circle;
+	width: 250px;
 }
