@@ -307,8 +307,12 @@ footer {
 
 footer img {
 	float: left;
-	width: 240px;
-	padding: 0 20px;
+	width: 210px;
+	padding: 0 20px 0 0;
+}
+
+footer ul {
+	padding: 0;
 }
 
 footer li {
@@ -317,4 +321,8 @@ footer li {
 	float: left;
 	list-style-type: circle;
 	width: 250px;
+}
+
+div .clear {
+	clear: left;
 }
