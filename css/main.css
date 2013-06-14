@@ -26,6 +26,7 @@ p {
 }
 
 em {
+	font-size: 10px;
 	color: #777;
 }
 
@@ -106,9 +107,9 @@ header a:active {
 /* --------------------------------------------------Call to Action */
 
 .ctacontent h1 {
-	color: #188bbd;
+	color: #3db8e0;
 	margin: 0;
-	text-shadow: 0px 2px 3px #999;
+	text-shadow: 2px 2px 1px #aaa;
 }
 
 .ctacontent em {
