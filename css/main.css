@@ -301,7 +301,7 @@ article img {
 footer {
 	clear: both;
 	width: 980px;
-	height: 60px;
+	overflow: hidden;
 	background-color: rgba(60, 60, 60, 0.80);
 }
 
@@ -312,13 +312,16 @@ footer img {
 }
 
 footer ul {
+	height: 60px;
+	float: left;
 	padding: 0;
+	margin: 0;
 }
 
 footer li {
+	float: left;
 	color: #999;
 	line-height: 60px;
-	float: left;
 	list-style-type: circle;
 	width: 250px;
 }
