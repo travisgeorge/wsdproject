@@ -1,8 +1,8 @@
 body {
-	width: 980px;
+	max-width: 980px;
 	margin: 0 auto;
 	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-	font-size: 12px;
+	font-size: 75%; /* 12px */
 	background: #020202 url("../images/bg_global.jpg") repeat-x;
 }
 
@@ -13,11 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 2.08333333em; /* 25px */
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.66666667em; /* 20px */
 	margin: 0;
 }
 
@@ -26,8 +26,12 @@ p {
 }
 
 em {
-	font-size: 10px;
+	font-size: 0.83333333em; /* 10px */
 	color: #777;
+}
+
+img {
+	max-width: 100%;
 }
 
 /* --------------------------------------------------Site Branding and Navigation */
@@ -40,14 +44,14 @@ header {
 	background-image: -webkit-linear-gradient(top, #3D3D3D 0%, #292929 100%);
 	background-image: linear-gradient(to bottom, #3D3D3D 0%, #292929 100%);
 	margin: 0 auto;
-	width: 980px;
+	width: 100%; /* 980px */
 	overflow: hidden;
 }
 
 header h1 {
 	background-image: url('../images/logo.jpg');
 	color: #fff;
-	width: 320px;
+	width: 32.653062%; /* 320px */
 	height: 60px;
 	margin: 0;
 	padding: 0;
@@ -57,13 +61,12 @@ header h1 {
 }
 
 nav {
-	width: 660px;
+	width: 67.346939%; /* 660px */
 	float: left;
-	background-opacity
 }
 
 nav ul {
-	width: 660px;
+	width: 100%; /* 660px */
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -71,13 +74,13 @@ nav ul {
 }
 
 nav li {
-	width: 165px;
+	width: 25%; /* 165px */
 	float: left;
 }
 
 header a {
 	font-family: 'Advent Pro', sans-serif;
-	font-size: 20px;
+	font-size: 1.66666667em;
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -123,16 +126,14 @@ header a:active {
 .cta {
 	clear: left;
 	background-color: #fff;
-	width: 940px;
+	width: 95.918367%; /* 940px */
 	margin: 0 auto;
 	padding: 20px 20px 10px 20px;
 	overflow: hidden;
 }
 
-.ctaimg {
-	background-color: #fff;
-	width: 628px;
-	height: 240px;
+.cta img {
+	width: 66.914894%; /* 629px */
 	float:left;
 	-moz-box-shadow: 3px 3px 4px #aaa;
 	-webkit-box-shadow: 3px 3px 4px #aaa;
@@ -142,13 +143,13 @@ header a:active {
 	border-right-style:none;
 	border-bottom-style:solid;
 	border-left-style:solid;
-	
+		
 }
 
 .ctacontent {
 	background-color: #f5f5f5;
-	width: 268px;
-	height: 200px;
+	width: 28.617021%; /* 269px */
+	max-height: 198px;
 	padding: 20px;
 	float: left;
 	text-align: justify;
@@ -177,7 +178,7 @@ header a:active {
 	display:inline-block;
 	color:#ffffff;
 	font-family:Trebuchet MS;
-	font-size:15px;
+	font-size: 1.25em; /* 15px */ 
 	font-weight:bold;
 	padding:7px 24px;
 	text-decoration:none;
@@ -203,8 +204,7 @@ header a:active {
 	background-color: #fff;
 	margin: 0 auto;
 	padding: 10px 0;
-	width: 980px;
-	max-height: 80px;
+	width: 100%; /* 980px */
 	overflow: hidden;
 }
 
@@ -228,7 +228,7 @@ section li img {
 }
 
 .subctaparagraph {
-	width: 940px;
+	width: 95.918367%; /* 940px */
 	background-color: #fff;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -266,14 +266,14 @@ section li img {
 	background-color: #fff;
 	margin: 0;
 	padding: 0 0 20px 0;
-	width: 980px;
+	width: 100%; /* 980px */
 	overflow: hidden;
 	float: right;
 }
 
 article {
 	background: url("../images/dividerbg.jpg") repeat-x center bottom;
-    width: 600px;
+    width: 61.22449%; /* 600px */
 	margin: 0 0 0 20px;
 	padding: 20px 0;
 	overflow: hidden;
@@ -281,7 +281,7 @@ article {
 
 article img {
 	margin: 0;
-	width: 218px;
+	width: 36.333333%; /* 218px */
 	float: left;
 	-moz-box-shadow: 3px 3px 4px #aaa;
 	-webkit-box-shadow: 3px 3px 4px #aaa;
@@ -292,7 +292,7 @@ article img {
 .articlecontent {
 	margin: 0;
 	padding: 0 0 0 20px;
-	width: 360px;
+	width: 60%; /* 360px */
 	float: left;
 }
 
@@ -300,18 +300,19 @@ article img {
 
 footer {
 	clear: both;
-	width: 980px;
+	width: 100%; /* 980px */
 	overflow: hidden;
 	background-color: rgba(60, 60, 60, 0.80);
 }
 
 footer img {
 	float: left;
-	width: 210px;
+	width: 21.428571%; /* 210px */
 	padding: 0 20px 0 0;
 }
 
 footer ul {
+	width: 76.530612%; /* 750px */
 	height: 60px;
 	float: left;
 	padding: 0;
@@ -323,7 +324,7 @@ footer li {
 	color: #999;
 	line-height: 60px;
 	list-style-type: circle;
-	width: 250px;
+	width: 32.467532%; /* 250px */
 }
 
 div .clear {
