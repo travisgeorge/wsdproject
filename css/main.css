@@ -330,3 +330,33 @@ footer li {
 div .clear {
 	clear: left;
 }
+
+/* ==================================================Media Queries */
+
+	/* Tablet portrait size to desktop 980px */
+	@media screen and (min-width:768px) and (max-width:979px) {
+		.cta {
+			background-color: #00640e;
+		}
+	}
+	
+	/* Mobile landscape size to tablet portrait */
+	@media only screen and (min-width:480px) and (max-width:767px) {
+			.cta {
+			background-color: #00ac18;
+		}
+	}
+	
+	/* Mobile portrait size to mobile portrait */
+	@media only screen and (max-width:479px) {
+			.cta {
+			background-color: #00fd24;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
