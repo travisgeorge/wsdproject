@@ -577,14 +577,14 @@ div .clear {
 		}
 		
 		article img {
-			width: 95%; /* 920px */
+			width: 98%; /* 920px */
 			float: none;
 		}
 		
 		.articlecontent {
 			width: 93.877551%; /* 920px */
 			float: none;
-			padding: 5px;
+			padding: 10px;
 		}
 	}
 	
