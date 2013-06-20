@@ -396,7 +396,15 @@ div .clear {
 	
 	/* Mobile landscape size to tablet portrait */
 	@media only screen and (min-width:480px) and (max-width:767px) {
+		header h1 {
+			width: 320px;
+			float: none;
+			margin: 0 auto;
+		}
 		
+		nav {
+			float: none;
+		}
 	
 		.cta {
 			width: 100%;
@@ -444,8 +452,9 @@ div .clear {
 		}
 		
 		.advertisement {
-			width: 31.914894%;
+			width: 300px;
 			float: none;
+			margin: 20px auto;
 		}
 		
 		article {
