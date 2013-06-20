@@ -404,7 +404,6 @@ div .clear {
 		header h1 {
 			width: 100%;
 			background-image: url('../images/logomobile.jpg');
-			background-color: #3d3d3d;
 			background-repeat: no-repeat;
 			background-position: center;
 			float: none;
@@ -493,6 +492,11 @@ div .clear {
 	
 	/* Mobile portrait size to mobile portrait */
 	@media only screen and (max-width:479px) {
+		header {
+			background-image: none;
+			background-color: #3d3d3d;
+		}
+	
 		header h1 {
 			width: 100%;
 			background-image: url('../images/logomobile.jpg');
