@@ -396,8 +396,15 @@ div .clear {
 	
 	/* Mobile landscape size to tablet portrait */
 	@media only screen and (min-width:480px) and (max-width:767px) {
+		header {
+			background-image: none;
+			background-color: #3d3d3d;
+		}
+	
 		header h1 {
 			width: 100%;
+			background-image: url('../images/logomobile.jpg');
+			background-color: #3d3d3d;
 			background-repeat: no-repeat;
 			background-position: center;
 			float: none;
@@ -407,6 +414,7 @@ div .clear {
 		nav {
 			float: none;
 			margin: 0 auto;
+			background-color: #3d3d3d;
 		}
 		
 		header a {
@@ -486,6 +494,7 @@ div .clear {
 	@media only screen and (max-width:479px) {
 		header h1 {
 			width: 100%;
+			background-image: url('../images/logomobile.jpg');
 			background-repeat: no-repeat;
 			background-position: center;
 			float: none;
@@ -521,7 +530,7 @@ div .clear {
 		.ctacontent {
 			background-color: #fff;
 			width: 100%;
-			height: 200px;
+			height: 225px;
 			margin: 0 auto;
 			padding: 0;
 			
@@ -532,7 +541,7 @@ div .clear {
 		}
 		
 		.ctacontent p {
-			width: 93.877551%; /* 920px */
+			width: 89.795918%; /* 920px */
 			margin: 15px auto;
 			padding: 0 20px;
 		}
@@ -557,16 +566,19 @@ div .clear {
 		
 		article {
 			float: none;
-			width: 93.877551%; /* 920px */
-			margin: 0 20px;
+			width: 89.795918%; /* 920px */
+			margin: 0 15px;
 		}
 		
 		article img {
-			width: 35.16129%; /* 218px */
+			width: 95%; /* 920px */
+			float: none;
 		}
 		
 		.articlecontent {
-			width: 58.064516%; /* 360px */
+			width: 93.877551%; /* 920px */
+			float: none;
+			padding: 5px;
 		}
 	}
 	
