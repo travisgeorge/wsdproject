@@ -392,6 +392,18 @@ div .clear {
 		.articlecontent {
 			width: 58.064516%; /* 360px */
 		}
+		
+		footer {
+			width: 100%;
+		}
+		
+		footer ul {
+			width: 100%;
+		}
+		
+		footer li {
+			width: 50%;
+		}
 	}
 	
 	/* Mobile landscape size to tablet portrait */
@@ -487,6 +499,18 @@ div .clear {
 		
 		.articlecontent {
 			width: 58.064516%; /* 360px */
+		}
+		
+		footer {
+			width: 100%;
+		}
+		
+		footer ul {
+			width: 100%;
+		}
+		
+		footer li {
+			width: 50%;
 		}
 	}
 	
@@ -586,7 +610,20 @@ div .clear {
 			float: none;
 			padding: 10px;
 		}
+		
+		footer {
+			width: 100%;
+		}
+		
+		footer ul {
+			width: 100%;
+		}
+		
+		footer li {
+			width: 50%;
+		}
 	}
+	
 	
 	
 	
